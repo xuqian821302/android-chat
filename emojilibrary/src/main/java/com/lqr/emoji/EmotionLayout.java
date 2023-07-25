@@ -250,7 +250,6 @@ public class EmotionLayout extends LinearLayout implements View.OnClickListener 
 
         if (mRlEmotionAdd != null) {
             mRlEmotionAdd.setOnClickListener(new OnClickListener() {
-                
                 @Override
                 public void onClick(View v) {
                     if (mEmotionExtClickListener != null) {
